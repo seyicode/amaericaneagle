@@ -1,0 +1,36 @@
+#I added the google font cdn to the header section of the index.html page
+
+#For the retina screen, I added the "srcset" attribute to pull the image
+
+#I used font awesome for the hamburger menu and search icon (added the cdn to the header and pulled the icon to the approriate place) 
+but for the shopping cart, I used the icon available in the image folder
+
+#due to the time given, I wasn't able to complete the functionality for the expanded menu, I the issue am having is if I should use jquary or if its a bootstrap option. 
+"data-target" is a bootstrap attribute. I wouldn't want to waste too uch time on it.
+    $(document).ready(function(){
+    $("expander").click(function(){
+        $("expander__toggle");
+    });
+});. I believe this code is suppose to  but somehow its not. Am missing something for sure 
+
+#I was able to use javascript query seletor and setInterval function  to add two more slides , I was able to add some "overflow-hidden" style to the images 
+which helps with the reponsiveness.
+
+#I was able to add the social media icon and set it "inline block" style to make it align straight infront of each other
+
+#I was able to remove the horizontal scrol bar menu by adding "overflow:hidden to the html and body tag styling "
+
+#was able to collapse the expanded footer menu, using media quary at max- wedth 768px.
+
+not competed
+1. Menu bar functionality
+
+2. accordion drop down menu
+
+General oversight
+I love  the simplicity of the design, the background and the responsiveness. FED did a good job with where he left off but I think some of this could be improve upon
+    *Good and consistent indentations
+    *There was a ittle bit of deep nexting that got me kind of confusing
+    *Fed did a good job with  naming of the divs and classes but at some point I felt there are repetition 
+    * I love simplicity, this code can be made much more simpler that it is.
+The more I work on the project the more I would be able to find more ways to improve, there is always room to be better.  
